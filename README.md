@@ -95,8 +95,24 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 
 ---
 
-## 5. Factions & Regional Caps
-Each Union has a "Global Tag".
+## 5. Factions & Regional Unions
+---
+
+### **I. The Highlanders (Mountain)**
+* **Races:** Humans, Dwarfs, Snow Elves, Half-Orcs, Dragonborn.
+* **Global Tag: [defend-the-highground-1]** - All units gain +1 to rolls when defending a position or a Region Objective.
+
+### **II. The Tidal Alliance (Coastal)**
+* **Races:** Humans, Tritons, Coastal Elves, Water Genasi, Harpies.
+* **Global Tag: [costal-trade-1]** - Example usage: +1 Power to Actions on coast. Could also be to recruiting and logistics.
+
+### **III. The Wardens of the Wild (Forest)**
+* **Races:** Humans, Dryads, Wood Elves, Treants, Human Shifters.
+* **Global Tag: [ambush-in-the-wild]** - Example usage: +1 Power to first Defensive Actions in wilderness.
+
+### **IV. The United Tribes (Plains)**
+* **Races:** Humans, Orcs, Ogres, Tabaxi, Goliaths.
+* **Global Tag: [riders]** - Example usage: +1 to Attacks in the open or +1 to disengaging. 
 
 ---
 

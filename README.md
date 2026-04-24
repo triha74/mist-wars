@@ -1,12 +1,12 @@
-I was unable to access the GitHub link directly to verify if you have already uploaded a manual version (likely due to the repository being private or very new), so I have generated this new version based on our established context. 
+# mist-wars
 
-Please copy this into your `README.md` to establish the baseline for our future iterations.
+This document outlines the core mechanics for your strategic TTRPG. It is designed to be stored in a git repository and iterated upon as the design evolves.
 
 ---
 
-# Mist Wars Core Rules
-**Version:** 0.2  
-**Theme:** Strategic wargaming with tag-based narrative resolution.
+# Rulebook: [Project Name Pending]
+**Version:** 0.1  
+**Core Concept:** A Grand Strategy Wargame resolved through a Tag-based Narrative System.
 
 ---
 
@@ -28,57 +28,74 @@ When a hit (7+) is scored, the amount of "Potential Power" generated is:
 ---
 
 ## 2. Unit Anatomy
-Units are lean to ensure scannability on a strategic map.
+To prevent "Tag Bloat," units follow a strict structure. An army typically consists of 4–8 units.
 
-* **Permanent Tags:** * **Strengths (1–3):** Defining advantages (e.g., *Armored, Elite, Mobility*).
-    * **Weakness (1):** A defining flaw (e.g., *Fuel-Hungry, Fragile*).
-* **Status Slots:**
-    * **Positive Status (Max 1):** A tiered bonus (e.g., *Entrenched 2*).
-    * **Negative Status (Max 1):** A tiered penalty (e.g., *Damage 3*). 
-    * **The Breaking Point:** If a Negative Status reaches **Level 5**, the unit is destroyed, captured, or routed.
-* **Temporary Tag Slots (Max 2):** Circumstantial modifiers (e.g., *High Ground, Out of Ammo*).
+* **Permanent Strength Tags (1–3):** Defining traits (e.g., *Armored, Elite, Long-Range*).
+* **Permanent Weakness Tag (1):** A baked-in flaw (e.g., *Slow, Inexperienced, Fuel-Hungry*).
+* **Positive Status Slot (Max 1):** A tiered bonus (e.g., *Entrenched-2*).
+* **Negative Status Slot (Max 1):** A tiered penalty (e.g., *Suppressed-3*). **If any Negative Status reaches Level 5, the unit is destroyed/captured.**
+* **Temporary Tag Slots (Max 2):** Circumstantial modifiers (e.g., *High-Ground, Out of Position*).
 
 ---
 
-## 3. Action Economy
+## 3. Actions
+Players take actions with their units one at a time.
 
-### **Move Action**
-* **Empty Region:** 1 square. No roll.
-* **Occupied Region (Engagement):** Roll 2D6. 
-    * *Power spent on positioning or enemy statuses.*
+### **I. Move Action**
+* **Empty Region:** 1 square per turn. No roll required.
+* **Occupied Region (Engagement):** Requires a roll.
+    * **Strong Hit:** Enter square, gain positioning/momentum.
+    * **Weak Hit:** Enter square, but take a consequence (e.g., *Suppressed-1*).
+    * **Miss:** Movement fails. Unit is pinned in the previous square.
 
-### **Logistics Action**
+### **II. Logistics Action**
 * *Requires Logistics Unit.*
-* Spend Power to: Remove negative statuses, add defensive region tags, or "heal" units.
+* **Hit:** Spend Power to "Heal" statuses, add defensive Tags to a region, or increase Objective Strength (fortifying).
 
-### **Recruit Action**
+### **III. Recruit Action**
 * *Requires Logistics Unit.*
-* Spend Power to bring new units into play or recover routed forces.
+* **Hit:** Spend Power to bring new units onto the board or recover "Routed" units.
 
-### **Covert Ops Action**
+### **IV. Covert Ops Action**
 * *Requires Covert Unit.*
-* Spend Power to apply/remove tags on units or regions. Can target HQs to affect distant theaters.
+* **Hit:** Spend Power to apply/remove tags on units or regions. Can affect distant regions if targeting an HQ (e.g., *Exposed-2*).
 
-### **Military Ops Action**
+### **V. Military Ops Action**
 * *Requires Military Unit.*
-* The primary way to spend Power to reduce **Region Objectives**.
+* **Hit:** The primary way to spend Power to reduce **Region Objectives**.
 
 ---
 
 ## 4. Region Objectives
-A region is controlled by reducing its **Objective Points** (e.g., *City: 12*) to zero.
-* **Enemy Presence:** Enemy units in a region provide negative modifiers to Military Ops targeting the Objective.
-* **Victory:** When Objectives hit 0, the defender must retreat.
+Regions are not "captured" by killing all units, but by completing Objectives.
+* **Objective Points:** Each region has a value (e.g., *Bridge: 10 pts*).
+* **Resolution:** When points reach 0, the defender must retreat.
+* **Modifiers:** Enemy units in a region act as negative modifiers to Military Ops actions targeting the Objective.
+
+---
+
+## 5. Examples of Play
+
+### **Example A: The Tank Assault**
+* **Unit:** 1st Armored (*Tags: Armored, HE-Ammo; Weakness: Fuel-Hungry*)
+* **Target:** Infantry in a *Town* objective.
+* **The Roll:** +2 (Strengths) -1 (Town Cover) = **+1 Modifier**.
+* **Result:** 10 (Strong Hit). 3 Power gained.
+* **Spend:** Player spends 3 Power to reduce the *Town* objective from 10 to 7. Because it was a Strong Hit, no consequence is applied.
+
+### **Example B: The Saboteur**
+* **Unit:** Ghost Squad (*Tags: Stealthy; Weakness: Fragile*)
+* **Action:** Infiltrate enemy HQ to help a battle 3 squares away.
+* **Result:** Weak Hit. 2 Power gained.
+* **Spend:** Player spends 2 Power to give a distant enemy Tank the status *Radio-Silence-2*.
+* **Consequence:** The GM gives the Ghost Squad the Temp Tag *[Low-Batteries]* (filling one of their two slots).
 
 ---
 
 ## 🗒️ TODO List
-- [ ] **Power Price List:** Define costs for specific effects (e.g., 1 Power = -1 Objective point).
-- [ ] **Unit Tiering:** Create template profiles for Infantry, Armor, and Special Ops.
-- [ ] **Global Tags:** Design "National Doctrines" that provide theater-wide modifiers.
-- [ ] **Fog of War:** Mechanics for hidden units and "Unconfirmed" statuses.
-- [ ] **Turn Structure:** Finalize between Alternating Activations or Full Turn Phases.
-
----
-
-**Next Step Recommendation:** I suggest we tackle the **Power Price List** next. We need to decide if 1 Power = 1 Objective Point, or if some objectives (like a "Fortified Bunker") are "armored" and require 2 Power to reduce 1 point. What do you think?
+- [ ] **Define Unit Tiers:** Determine exactly how many Strength tags Tier 1 (Infantry) vs Tier 3 (Special Forces) get.
+- [ ] **Power Menu:** Create a standardized "Price List" for what 1, 2, and 3 Power can buy (e.g., Is "Retreat" 2 power or 3?).
+- [ ] **Global Tags:** Draft a list of "National Doctrines" that players choose at the start of the game.
+- [ ] **Fog of War:** Brainstorm mechanics for hidden units/statuses (e.g., only "revealed" if a Covert Ops or Engagement roll happens).
+- [ ] **Map Scale:** Decide on the grid type (Hex vs Square) and how Logistics "reach" is calculated.
+- [ ] **Turn Structure:** Determine if it is I-Go-You-Go or alternating unit activations.

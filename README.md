@@ -31,7 +31,7 @@ Power must be spent immediately on the action's targets:
 Units are defined by a limited number of slots to prevent "Tag Bloat" and ensure fast play.
 
 ### **2.1 Attributes**
-* **Tier:** (1, 2, or 3)
+* **Tier:** (1, 2, or 3) Defines number of Strength Tags
 * **Aptitude:** Meta-tags that dictate narrative permissions and growth (e.g., `tactical`, `innate-magic`, `arcane-magic`).
 * **Strengths:** (1–3 tags) Mechanical modifiers for the 2D6 roll.
 * **Weakness:** (1 tag) A permanent mechanical penalty.
@@ -102,17 +102,158 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 * **Races:** Humans, Dwarfs, Snow Elves, Half-Orcs, Dragonborn.
 * **Global Tag: [defend-the-highground-1]** - All units gain +1 to rolls when defending a position or a Region Objective.
 
+#### **I. Units**
+
+|Dwarf Ironbreaker||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `sheild-wall`, `unshakable`|
+|**Weakness**| `short-range`|
+
+| Snow Elf Saboteur||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `snow-camouflage`, `vital-point-strike`|
+|**Weakness**| `physically-fragile`|
+
+| Human Sappers (Quartermaster)||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `heavy-engineering`, `fortify-objective`|
+|**Weakness**| `gear-dependent`|
+
+| Half-Orc Tunnel-Runner Raiders||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `close-quarters-fury`, `tunnel-maneuver`|
+|**Weakness**| `reckless-abandon`|
+
+
 ### **II. The Tidal Alliance (Coastal)**
 * **Races:** Humans, Tritons, Coastal Elves, Water Genasi, Harpies.
 * **Global Tag: [costal-trade-1]** - Example usage: +1 Power to Actions on coast. Could also be to recruiting and logistics.
+
+|Triton Phalanx||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-amphibious`|
+|**Strength**| `pressure-resistant-armor`, `throw-the-net`|
+|**Weakness**| `dry-land-fatigue`|
+
+|Coastal Elf Saboteurs||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `arcane-illusion`|
+|**Strength**| `stealth-movement`, `confusing-mist`|
+|**Weakness**| `low-physical-presence`|
+
+
+|Water Genasi Supply Ship||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-amphibious`|
+|**Strength**| `fluid-logistics`, `hydro-healing`|
+|**Weakness**| `tethered-to-waterways`|
+
+
+|Harpie Storm-Screechers||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-flight`|
+|**Strength**| `dive-bomb-harassment`, `aerial-scouting`|
+|**Weakness**| `hollow-bones`|
+
+
+|Human Merchant-Marines||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical-naval-warfare`|
+|**Strength**| `disciplined-volleys`, `carries-supplies`|
+|**Weakness**| `tethered-to-waterways`|
+
 
 ### **III. The Wardens of the Wild (Forest)**
 * **Races:** Humans, Dryads, Wood Elves, Treants, Human Shifters.
 * **Global Tag: [ambush-in-the-wild]** - Example usage: +1 Power to first Defensive Actions in wilderness.
 
+|Treant Guardians||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-nature-magic`|
+|**Strength**| `egenerative-bark`, `deep-roots`|
+|**Weakness**| `very-large`|
+
+|Human Shifter Stalkers||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-shapeshifting`, `innate-senses`|
+|**Strength**| `scent-tracker`, `feral-agility`|
+|**Weakness**| `instinct-driven-distraction`|
+
+|Dryad Ritualists||
+|---|---|
+|**Tier**| 1|
+|**Aptitude**| `innate-magic`|
+|**Strength**| `nature-mending`|
+|**Weakness**| `bound-to-the-wilds`|
+
+|Wood Elf Archers||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `woodland-sprint`, `precision-shot`|
+|**Weakness**| `lightly-armored`|
+
+|Human Rangers||
+|---|---|
+|**Tier**| 1|
+|**Aptitude**| `tactical`|
+|**Strength**| `expert-trackers`|
+|**Weakness**| `limited-resources`|
+
+
 ### **IV. The United Tribes (Plains)**
 * **Races:** Humans, Orcs, Ogres, Tabaxi, Goliaths.
-* **Global Tag: [riders]** - Example usage: +1 to Attacks in the open or +1 to disengaging. 
+* **Global Tag: [riders]** - Example usage: +1 to Attacks in the open or +1 to disengaging.
+
+|Human Rider||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `mounted-bow-shot`, `stealthy-moves`|
+|**Weakness**| `no-retreat`|
+
+|Tabaxi Prowler||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `sent-tracker`, `stealthy-moves`|
+|**Weakness**| `impulsive`|
+
+|Goliath Great-Load Bearers||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `mountain-lungs`, `extreme-carrying-capacity`|
+|**Weakness**| `massive-food-requirements`|
+
+|Orc Warg-Riders||
+|---|---|
+|**Tier**| 1|
+|**Aptitude**| `tactical`|
+|**Strength**| `thunderous-charge`, `swift-blow`|
+|**Weakness**| `noisy-presence`|
+
+|Human Caravan-Guard||
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical`|
+|**Strength**| `coordinated-thrust`, `swift-retreat`|
+|**Weakness**| `exposed-in-tight-terrain`|
 
 ---
 

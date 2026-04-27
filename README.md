@@ -104,28 +104,28 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 
 #### **I. Units**
 
-|Dwarf Ironbreaker||
+|Dwarf Ironbreaker|Military|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `sheild-wall`, `unshakable`|
 |**Weakness**| `short-range`|
 
-| Snow Elf Saboteur||
+| Snow Elf Saboteur|Covert|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `snow-camouflage`, `vital-point-strike`|
 |**Weakness**| `physically-fragile`|
 
-| Human Sappers (Quartermaster)||
+| Human Sappers|Logistics|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `heavy-engineering`, `fortify-objective`|
 |**Weakness**| `gear-dependent`|
 
-| Half-Orc Tunnel-Runner Raiders||
+| Half-Orc Tunnel-Runner Raiders|Mobile|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
@@ -137,14 +137,21 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 * **Races:** Humans, Tritons, Coastal Elves, Water Genasi, Harpies.
 * **Global Tag: [costal-trade-1]** - Example usage: +1 Power to Actions on coast. Could also be to recruiting and logistics.
 
-|Triton Phalanx||
+|Triton Phalanx|Military|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `innate-amphibious`|
 |**Strength**| `pressure-resistant-armor`, `throw-the-net`|
 |**Weakness**| `dry-land-fatigue`|
 
-|Coastal Elf Saboteurs||
+|Human Merchant-Marines|Military|
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `tactical-naval-warfare`|
+|**Strength**| `disciplined-volleys`, `carries-supplies`|
+|**Weakness**| `tethered-to-waterways`|
+
+|Coastal Elf Saboteurs|Special|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `arcane-illusion`|
@@ -152,7 +159,7 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Weakness**| `low-physical-presence`|
 
 
-|Water Genasi Supply Ship||
+|Water Genasi Supply Ship|Logistics|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `innate-amphibious`|
@@ -160,7 +167,7 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Weakness**| `tethered-to-waterways`|
 
 
-|Harpie Storm-Screechers||
+|Harpie Storm-Screechers|Mobility|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `innate-flight`|
@@ -168,87 +175,87 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Weakness**| `hollow-bones`|
 
 
-|Human Merchant-Marines||
-|---|---|
-|**Tier**| 2|
-|**Aptitude**| `tactical-naval-warfare`|
-|**Strength**| `disciplined-volleys`, `carries-supplies`|
-|**Weakness**| `tethered-to-waterways`|
-
 
 ### **III. The Wardens of the Wild (Forest)**
-* **Races:** Humans, Dryads, Wood Elves, Treants, Human Shifters.
+* **Races:** Humans, Dryads, Wood Elves, Treants, Halfling Human Shifters.
 * **Global Tag: [ambush-in-the-wild]** - Example usage: +1 Power to first Defensive Actions in wilderness.
 
-|Treant Guardians||
+|Treant Guardians|Military|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `innate-nature-magic`|
 |**Strength**| `egenerative-bark`, `deep-roots`|
 |**Weakness**| `very-large`|
 
-|Human Shifter Stalkers||
-|---|---|
-|**Tier**| 2|
-|**Aptitude**| `innate-shapeshifting`, `innate-senses`|
-|**Strength**| `scent-tracker`, `feral-agility`|
-|**Weakness**| `instinct-driven-distraction`|
-
-|Dryad Ritualists||
-|---|---|
-|**Tier**| 1|
-|**Aptitude**| `innate-magic`|
-|**Strength**| `nature-mending`|
-|**Weakness**| `bound-to-the-wilds`|
-
-|Wood Elf Archers||
+|Wood Elf Archers|Military|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `woodland-sprint`, `precision-shot`|
 |**Weakness**| `lightly-armored`|
 
-|Human Rangers||
+|Human Shifter Stalkers|Covert|
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-shapeshifting`, `innate-senses`|
+|**Strength**| `scent-tracker`, `feral-agility`|
+|**Weakness**| `instinct-driven-distraction`|
+
+|Dryad Ritualists|Logistics|
+|---|---|
+|**Tier**| 2|
+|**Aptitude**| `innate-magic`|
+|**Strength**| `nature-mending`, `summon-pixies`|
+|**Weakness**| `bound-to-the-wilds`|
+
+|Scout Pixies|Covert|
 |---|---|
 |**Tier**| 1|
-|**Aptitude**| `tactical`|
-|**Strength**| `expert-trackers`|
-|**Weakness**| `limited-resources`|
+|**Aptitude**| `innate-magic`|
+|**Strength**| `teleport`|
+|**Weakness**| `fragile-manifestation`|
+
+|Saboteur Pixies|Covert|
+|---|---|
+|**Tier**| 1|
+|**Aptitude**| `innate-magic`|
+|**Strength**| `tinker-with-gadgets`|
+|**Weakness**| `fragile-manifestation`|
 
 
 ### **IV. The United Tribes (Plains)**
 * **Races:** Humans, Orcs, Ogres, Tabaxi, Goliaths.
 * **Global Tag: [riders]** - Example usage: +1 to Attacks in the open or +1 to disengaging.
 
-|Human Rider||
+|Human Rider|Military|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `mounted-bow-shot`, `stealthy-moves`|
 |**Weakness**| `no-retreat`|
 
-|Tabaxi Prowler||
+|Tabaxi Prowler|Covert|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `sent-tracker`, `stealthy-moves`|
 |**Weakness**| `impulsive`|
 
-|Goliath Great-Load Bearers||
+|Goliath Great-Load Bearers|Logistics|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|
 |**Strength**| `mountain-lungs`, `extreme-carrying-capacity`|
 |**Weakness**| `massive-food-requirements`|
 
-|Orc Warg-Riders||
+|Orc Warg-Riders|Mobile|
 |---|---|
 |**Tier**| 1|
 |**Aptitude**| `tactical`|
 |**Strength**| `thunderous-charge`, `swift-blow`|
 |**Weakness**| `noisy-presence`|
 
-|Human Caravan-Guard||
+|Human Caravan-Guard|Mobile|
 |---|---|
 |**Tier**| 2|
 |**Aptitude**| `tactical`|

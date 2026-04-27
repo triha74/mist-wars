@@ -147,7 +147,7 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |Human Merchant-Marines|Military|
 |---|---|
 |**Tier**| 2|
-|**Aptitude**| `tactical-naval-warfare`|
+|**Aptitude**| `tactical`|
 |**Strength**| `disciplined-volleys`, `carries-supplies`|
 |**Weakness**| `tethered-to-waterways`|
 

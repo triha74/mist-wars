@@ -4,7 +4,44 @@
 
 ---
 
-## 1. The Core Resolution
+## 1. The Momentum System
+Instead of rolling for initiative every round, players track their Momentum. This represents the tactical "initiative" and morale of the army.
+
+### 1.1 Starting Momentum
+At the beginning of the game, each faction starts with a base value:
+
+**The Highlanders:** 2 (Slow and steady)
+**The Tidal Alliance:** 4 (High opening speed, volatile)
+**The Wardens of the Wild:** 3 (Balanced)
+**The United Tribes:** 5 (Aggressive and swift)
+
+### 1.2 Building & Losing Momentum
+Momentum is adjusted immediately after every action roll:
+
+**Strong Hit (10+):** +1 Momentum.
+**Miss (6 or less):** -1 Momentum.
+
+## 2. The Round Sequence
+### Phase I: The Initiative Check
+Commanders compare their current Momentum. The player with the highest Momentum decides who activates the first unit. In the event of a tie, the player who held initiative last round keeps it.
+
+### Phase II: The Activation Phase (Alternating)
+Players take turns activating one Unit (or one Stack) at a time.
+
+**Move:** 1 square (No roll) or Engagement (Roll if enemies are present).
+**Action:** Perform one Action (Military, Logistics, Covert, or Recruit).
+**Resolution:** Roll 2D6 -> Adjust Momentum -> Spend Power -> Mark Renown.
+
+This continues until all units on the board have been activated.
+
+### Phase III: The Aftermath Phase
+After all units have acted.
+
+**Growth:** Check Renown Tracks. If a unit has 3 marks, it Evolves (Tier Up, Shed Burden, or Adapt).
+**Objective Check:** If a Region Objective is 0, defenders must retreat.
+**Status Decay:** Reduce all "temporary" status levels by 1.
+
+## 3. The Core Resolution
 Actions are resolved by rolling **2D6** plus or minus modifiers from relevant **Tags** and **Statuses**.
 
 | Result | Outcome | Power Spend Allowed |
@@ -13,13 +50,13 @@ Actions are resolved by rolling **2D6** plus or minus modifiers from relevant **
 | **7 – 9 (Weak Hit)** | Success at a cost | **50%** of Potential Power (Round Up) |
 | **6 or less (Miss)** | Failure / Hard Consequence | **0** Power |
 
-### **1.1 The Power Formula**
+### **3.1 The Power Formula**
 When a hit (7+) is scored, calculate the **Potential Power**:
 > **$\text{Sum of Strength Tags} - \text{Sum of Weakness Tags}$** (Applied to the specific roll).
 >
 > * **The Floor Rule:** Potential Power is **always at least 1**, even if weaknesses outweigh strengths.
 
-### **1.2 Standard Power Costs**
+### **3.2 Standard Power Costs**
 Power must be spent immediately on the action's targets:
 * **1 Power:** Reduce Objective by 1; Add/Remove 1 Status Level; Clear 1 Temp Tag.
 * **2 Power:** Create a new Temp Tag; Force an enemy unit to retreat 1 square.
@@ -27,26 +64,26 @@ Power must be spent immediately on the action's targets:
 
 ---
 
-## 2. Unit Anatomy
+## 4. Unit Anatomy
 Units are defined by a limited number of slots to prevent "Tag Bloat" and ensure fast play.
 
-### **2.1 Attributes**
+### **4.1 Attributes**
 * **Tier:** (1, 2, or 3) Defines number of Strength Tags
 * **Aptitude:** Meta-tags that dictate narrative permissions and growth (e.g., `tactical`, `innate-magic`, `arcane-magic`).
 * **Strengths:** (1–3 tags) Mechanical modifiers for the 2D6 roll.
 * **Weakness:** (1 tag) A permanent mechanical penalty.
 
-### **2.2 Tier Standards**
+### **4.2 Tier Standards**
 * **Tier 1 (Basic/Militia):** 1 Strength Tag.
 * **Tier 2 (Professional):** 2 Strength Tags.
 * **Tier 3 (Elite/Specialized):** 3 Strength Tags.
 
-### **2.3 Status & Tag Slots**
+### **4.3 Status & Tag Slots**
 * **Positive Status (Max 1):** A tiered bonus (e.g., *Inspired 2*).
 * **Negative Status (Max 1):** A tiered penalty (e.g., *Damage 3*). 
 * **Temporary Tag Slots (Max 2):** Circumstantial modifiers (e.g., *High Ground*).
 
-### **2.4 The Breaking Point (Level 5)**
+### **4.4 The Breaking Point (Level 5)**
 If a Negative Status reaches **Level 5**, the unit is removed. The status type determines the narrative outcome:
 * **Damage 5:** Unit is **Destroyed**.
 * **Exposed 5:** Unit is **Captured**.
@@ -54,21 +91,21 @@ If a Negative Status reaches **Level 5**, the unit is removed. The status type d
 
 ---
 
-## 3. Magic & Aptitude
+## 5. Magic & Aptitude
 Magic is a narrative flavor for Tags, while Aptitude defines the scope of what a unit can achieve.
 
-### **3.1 Aptitude as Permission**
+### **5.1 Aptitude as Permission**
 Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permission."
 * **Utility:** A unit with `innate-flight` can bypass "Chasm" regions without a roll.
 * **Growth:** A unit can only gain Strength tags that align with their Aptitude (e.g., a `tactical` unit cannot learn *Fireball*).
 
-### **3.2 Three Pillars of Aptitude**
+### **5.2 Three Pillars of Aptitude**
 1.  **Tactical:** Mastery through training, discipline, and physical tools. Not able to train any Abilites that require Innate-<Ability> or Arcane-<Ability>
 2.  **Innate-<Ability>:** Natural untrained/tamed talent, limmited ability to the Ability. 
 3.  **Arcane-<Ability>:** Natural talent that has trained and mastered the Ability. Can Grow this ability on their own.
 ---
 
-## 4. Actions
+## 6. Actions
 
 ### **I. Move Action**
 * **Empty Region:** 1 square per turn. No roll required.
@@ -95,7 +132,7 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 
 ---
 
-## 5. Factions & Regional Unions
+## 7. Factions & Regional Unions
 ---
 
 ### **I. The Highlanders (Mountain)**
@@ -173,8 +210,6 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Aptitude**| `innate-flight`|
 |**Strength**| `dive-bomb-harassment`, `aerial-scouting`|
 |**Weakness**| `hollow-bones`|
-
-
 
 ### **III. The Wardens of the Wild (Forest)**
 * **Races:** Humans, Dryads, Wood Elves, Treants, Halfling Human Shifters.
@@ -263,24 +298,22 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Weakness**| `exposed-in-tight-terrain`|
 
 ---
-## 6. Renown & Growth
+## 8. Renown & Growth
 Every unit has a Renown Track with 3 slots. When the track is filled, the unit may "Evolve."
 
-### **I Earning Renown
+### **8.1 Earning Renown
 A unit gains 1 Renown mark when any of the following occur:
 
-The Struggle (Weakness): The player voluntarily invokes the unit's Weakness as a negative modifier to a roll to represent a significant struggle.
+**The Struggle (Weakness):** The player voluntarily invokes the unit's Weakness as a negative modifier to a roll to represent a significant struggle.
+**The Burden (Status):** The unit attempts a roll while suffering a Negative Status of Level 3 or higher.
+**The Heroic Hit:** The unit scores a Strong Hit (10+) on a roll where they were at a mechanical disadvantage (more negative modifiers than positive).
 
-The Burden (Status): The unit attempts a roll while suffering a Negative Status of Level 3 or higher.
-
-The Heroic Hit: The unit scores a Strong Hit (10+) on a roll where they were at a mechanical disadvantage (more negative modifiers than positive).
-
-### **II Evolution (Filling the Track)
+### **8.2 Evolution (Filling the Track)
 When a unit earns 3 Renown marks, reset the track and choose one:
 
-Tier Up: If the unit is below its Tier cap, increase its Tier and add a new Strength Tag (aligned with its Aptitude).
+**Tier Up:** If the unit is below its Tier cap, increase its Tier and add a new Strength Tag (aligned with its Aptitude).
 
-Shed the Burden: Permanently remove one Level 1 Negative Status or clear all Temporary Tags.
+**Shed the Burden:** Permanently remove one Level 1 Negative Status or clear all Temporary Tags.
 
 Adaptation: Replace its current Weakness with a new, different Weakness that reflects its recent history.
 ---

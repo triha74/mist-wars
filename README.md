@@ -10,16 +10,16 @@ Instead of rolling for initiative every round, players track their Momentum. Thi
 ### 1.1 Starting Momentum
 At the beginning of the game, each faction starts with a base value:
 
-**The Highlanders:** 2 (Slow and steady)
-**The Tidal Alliance:** 4 (High opening speed, volatile)
-**The Wardens of the Wild:** 3 (Balanced)
-**The United Tribes:** 5 (Aggressive and swift)
+* **The Highlanders:** 2 (Slow and steady)
+* **The Tidal Alliance:** 4 (High opening speed, volatile)
+* **The Wardens of the Wild:** 3 (Balanced)
+* **The United Tribes:** 5 (Aggressive and swift)
 
 ### 1.2 Building & Losing Momentum
 Momentum is adjusted immediately after every action roll:
 
-**Strong Hit (10+):** +1 Momentum.
-**Miss (6 or less):** -1 Momentum.
+* **Strong Hit (10+):** +1 Momentum.
+* **Miss (6 or less):** -1 Momentum.
 
 ## 2. The Round Sequence
 ### Phase I: The Initiative Check
@@ -28,9 +28,9 @@ Commanders compare their current Momentum. The player with the highest Momentum 
 ### Phase II: The Activation Phase (Alternating)
 Players take turns activating one Unit (or one Stack) at a time.
 
-**Move:** 1 square (No roll) or Engagement (Roll if enemies are present).
-**Action:** Perform one Action (Military, Logistics, Covert, or Recruit).
-**Resolution:** Roll 2D6 -> Adjust Momentum -> Spend Power -> Mark Renown.
+* **Move:** 1 square (No roll) or Engagement (Roll if enemies are present).
+* **Action:** Perform one Action (Military, Logistics, Covert, or Recruit).
+* **Resolution:** Roll 2D6 -> Adjust Momentum -> Spend Power -> Mark Renown.
 
 This continues until all units on the board have been activated.
 
@@ -304,9 +304,9 @@ Every unit has a Renown Track with 3 slots. When the track is filled, the unit m
 ### **8.1 Earning Renown
 A unit gains 1 Renown mark when any of the following occur:
 
-**The Struggle (Weakness):** The player voluntarily invokes the unit's Weakness as a negative modifier to a roll to represent a significant struggle.
-**The Burden (Status):** The unit attempts a roll while suffering a Negative Status of Level 3 or higher.
-**The Heroic Hit:** The unit scores a Strong Hit (10+) on a roll where they were at a mechanical disadvantage (more negative modifiers than positive).
+* **The Struggle (Weakness):** The player voluntarily invokes the unit's Weakness as a negative modifier to a roll to represent a significant struggle.
+* **The Burden (Status):** The unit attempts a roll while suffering a Negative Status of Level 3 or higher.
+* **The Heroic Hit:** The unit scores a Strong Hit (10+) on a roll where they were at a mechanical disadvantage (more negative modifiers than positive).
 
 ### **8.2 Evolution (Filling the Track)
 When a unit earns 3 Renown marks, reset the track and choose one:

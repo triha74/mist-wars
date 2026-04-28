@@ -263,6 +263,27 @@ Aptitudes do not modify the 2D6 roll. Instead, they provide "Narrative Permissio
 |**Weakness**| `exposed-in-tight-terrain`|
 
 ---
+## 6. Renown & Growth
+Every unit has a Renown Track with 3 slots. When the track is filled, the unit may "Evolve."
+
+### **I Earning Renown
+A unit gains 1 Renown mark when any of the following occur:
+
+The Struggle (Weakness): The player voluntarily invokes the unit's Weakness as a negative modifier to a roll to represent a significant struggle.
+
+The Burden (Status): The unit attempts a roll while suffering a Negative Status of Level 3 or higher.
+
+The Heroic Hit: The unit scores a Strong Hit (10+) on a roll where they were at a mechanical disadvantage (more negative modifiers than positive).
+
+### **II Evolution (Filling the Track)
+When a unit earns 3 Renown marks, reset the track and choose one:
+
+Tier Up: If the unit is below its Tier cap, increase its Tier and add a new Strength Tag (aligned with its Aptitude).
+
+Shed the Burden: Permanently remove one Level 1 Negative Status or clear all Temporary Tags.
+
+Adaptation: Replace its current Weakness with a new, different Weakness that reflects its recent history.
+---
 
 ## 🗒️ TODO List
 - [ ] **Aptitude Glossary:** List specific permissions for tags like `innate-flight` or `heavy-engineering`.
